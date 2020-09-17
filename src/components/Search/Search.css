@@ -21,3 +21,26 @@
 .search-input > input:focus {
   outline-width: 0;
 }
+
+.search-inputIcon {
+  color: gray;
+}
+
+.search-micIcon {
+  color: rgb(66, 133, 244);
+}
+
+.search-buttons {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.search-buttons button {
+  margin: 5px;
+  padding: 7px 15px;
+  background-color: whitesmoke;
+  border: 1px solid white;
+  text-transform: inherit;
+  color: rgb(114, 110, 110);
+}
