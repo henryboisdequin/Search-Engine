@@ -44,3 +44,13 @@
   text-transform: inherit;
   color: rgb(114, 110, 110);
 }
+
+.search-buttons button:hover {
+  box-shadow: 0 1px 1px black;
+  background-color: whitesmoke;
+  color: #222;
+}
+
+.search-buttonsHidden {
+  display: none !important;
+}
