@@ -22,34 +22,86 @@
   max-width: unset;
 }
 
-.searchPage__options {
+.searchPage-options {
   display: flex;
   align-items: center;
   color: grey;
   margin-top: 30px;
 }
 
-.searchPage__options a,
-.searchPage__optionsRight a {
+.searchPage-options a,
+.searchPage-optionsRight a {
   text-decoration: none;
   color: grey;
 }
 
-.searchPage__optionsRight,
-.searchPage__optionsLeft {
+.searchPage-optionsRight,
+.searchPage-optionsLeft {
   display: flex;
 }
 
-.searchPage__optionsRight {
+.searchPage-optionsRight {
   margin-left: 80px;
 }
 
-.searchPage__option {
+.searchPage-option {
   display: flex;
   align-items: center;
   margin-right: 20px;
 }
 
-.searchPage__option a {
+.searchPage-option a {
   margin-left: 5px;
+}
+
+.searchPage-result {
+  margin: 40px 0;
+}
+
+.searchPage-resultCount {
+  color: #70757a;
+  font-size: 14px;
+}
+
+.searchPage-results {
+  max-width: 650px;
+  margin-top: 20px;
+  margin-left: 240px;
+  margin-bottom: 100px;
+}
+
+.searchPage-resultTitle {
+  text-decoration: none;
+}
+
+.searchPage-resultTitle:hover {
+  text-decoration: underline;
+}
+
+.searchPage-resultTitle > h2 {
+  font-weight: 500;
+}
+
+.searchPage-resultSnippet {
+  margin-top: 10px;
+}
+
+.searchPage-resultLink {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #000;
+  margin-bottom: 3px;
+}
+
+.searchPage-resultImage {
+  object-fit: contain;
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+}
+
+.searchPage-headerBody > .search > .search-input {
+  margin-left: 0;
+  margin-top: 0;
 }
