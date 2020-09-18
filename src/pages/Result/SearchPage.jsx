@@ -3,7 +3,7 @@ import "./SearchPage.css";
 import { useStateValue } from "../../StateProvider";
 import useGoogleSearch from "../../useGoogleSearch";
 import { Link } from "react-router-dom";
-import Search from "../../components/Search/Search";
+import Search from "../../component/Search/Search";
 import SearchIcon from "@material-ui/icons/Search";
 import DescriptionIcon from "@material-ui/icons/Description";
 import ImageIcon from "@material-ui/icons/Image";
@@ -16,6 +16,7 @@ export default function SearchPage() {
   const { data } = useGoogleSearch(term);
   // const data = Response;
 
+  //https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png
   console.log(data);
   return (
     <div className="searchPage">
@@ -23,7 +24,7 @@ export default function SearchPage() {
         <Link to="/">
           <img
             className="searchPage-logo"
-            src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+            src="https://live.staticflickr.com/2776/4301084717_3566a1a090_n.jpg"
             alt=""
           ></img>
         </Link>
