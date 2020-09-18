@@ -3,7 +3,7 @@ import "./SearchPage.css";
 import { useStateValue } from "../../StateProvider";
 import useGoogleSearch from "../../useGoogleSearch";
 import { Link } from "react-router-dom";
-import Search from "../../component/Search/Search";
+import Search from "../../component/Search";
 import SearchIcon from "@material-ui/icons/Search";
 import DescriptionIcon from "@material-ui/icons/Description";
 import ImageIcon from "@material-ui/icons/Image";
